@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D9E5AE39CD6A9124679553F /* Pods_VideoUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17CC82F45434A644CCC8386 /* Pods_VideoUpload.framework */; };
+		B501F578240DF7A000F08C56 /* HTTPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F542240DF7A000F08C56 /* HTTPHelper.m */; };
+		B501F579240DF7A000F08C56 /* MLDHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F543240DF7A000F08C56 /* MLDHTTPRequest.m */; };
+		B501F57A240DF7A000F08C56 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F549240DF7A000F08C56 /* AFURLResponseSerialization.m */; };
+		B501F57B240DF7A000F08C56 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F54A240DF7A000F08C56 /* AFHTTPSessionManager.m */; };
+		B501F57C240DF7A000F08C56 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F54C240DF7A000F08C56 /* AFURLSessionManager.m */; };
+		B501F57D240DF7A000F08C56 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F54D240DF7A000F08C56 /* AFURLRequestSerialization.m */; };
+		B501F57E240DF7A000F08C56 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F54F240DF7A000F08C56 /* AFNetworkReachabilityManager.m */; };
+		B501F57F240DF7A000F08C56 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F550240DF7A000F08C56 /* AFSecurityPolicy.m */; };
+		B501F580240DF7A000F08C56 /* MLDBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501F555240DF7A000F08C56 /* MLDBaseRequest.swift */; };
+		B501F581240DF7A000F08C56 /* MLDNetSpinnerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501F556240DF7A000F08C56 /* MLDNetSpinnerPlugin.swift */; };
+		B501F582240DF7A000F08C56 /* MLDSimpleNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501F557240DF7A000F08C56 /* MLDSimpleNetworking.swift */; };
+		B501F583240DF7A000F08C56 /* MLDNetLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501F558240DF7A000F08C56 /* MLDNetLoggerPlugin.swift */; };
+		B501F584240DF7A000F08C56 /* MLDModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501F559240DF7A000F08C56 /* MLDModelExtension.swift */; };
+		B501F585240DF7A000F08C56 /* MLDNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501F55B240DF7A000F08C56 /* MLDNamespace.swift */; };
+		B501F586240DF7A000F08C56 /* MLDLibraryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501F55C240DF7A000F08C56 /* MLDLibraryEnum.swift */; };
+		B501F587240DF7A000F08C56 /* MLDLibraryIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501F55D240DF7A000F08C56 /* MLDLibraryIcon.swift */; };
+		B5182B5B240E0BB1000CB4F6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5182B5A240E0BB1000CB4F6 /* CameraViewController.swift */; };
+		B5182B60240E2B2C000CB4F6 /* MLDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B5182B5C240E2B2C000CB4F6 /* MLDLog.m */; };
+		B5182B61240E2B2C000CB4F6 /* MLDQCloudCOSXML.m in Sources */ = {isa = PBXBuildFile; fileRef = B5182B5D240E2B2C000CB4F6 /* MLDQCloudCOSXML.m */; };
+		B5182B62240E2B2C000CB4F6 /* MLDGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5182B5E240E2B2C000CB4F6 /* MLDGCDTimer.swift */; };
+		B59727CC240DF5E300D58218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59727CB240DF5E300D58218 /* AppDelegate.swift */; };
+		B59727CE240DF5E300D58218 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59727CD240DF5E300D58218 /* SceneDelegate.swift */; };
+		B59727D0240DF5E300D58218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59727CF240DF5E300D58218 /* ViewController.swift */; };
+		B59727D3240DF5E300D58218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59727D1240DF5E300D58218 /* Main.storyboard */; };
+		B59727D5240DF5E600D58218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59727D4240DF5E600D58218 /* Assets.xcassets */; };
+		B59727D8240DF5E600D58218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59727D6240DF5E600D58218 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		511D66B3D92D95A5B590382E /* Pods-VideoUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoUpload.debug.xcconfig"; path = "Target Support Files/Pods-VideoUpload/Pods-VideoUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		B501F542240DF7A000F08C56 /* HTTPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPHelper.m; sourceTree = "<group>"; };
+		B501F543240DF7A000F08C56 /* MLDHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDHTTPRequest.m; sourceTree = "<group>"; };
+		B501F545240DF7A000F08C56 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B501F546240DF7A000F08C56 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B501F547240DF7A000F08C56 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B501F548240DF7A000F08C56 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B501F549240DF7A000F08C56 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B501F54A240DF7A000F08C56 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B501F54B240DF7A000F08C56 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B501F54C240DF7A000F08C56 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		B501F54D240DF7A000F08C56 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B501F54E240DF7A000F08C56 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B501F54F240DF7A000F08C56 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B501F550240DF7A000F08C56 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B501F551240DF7A000F08C56 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		B501F552240DF7A000F08C56 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B501F553240DF7A000F08C56 /* HTTPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPHelper.h; sourceTree = "<group>"; };
+		B501F554240DF7A000F08C56 /* MLDHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDHTTPRequest.h; sourceTree = "<group>"; };
+		B501F555240DF7A000F08C56 /* MLDBaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDBaseRequest.swift; sourceTree = "<group>"; };
+		B501F556240DF7A000F08C56 /* MLDNetSpinnerPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDNetSpinnerPlugin.swift; sourceTree = "<group>"; };
+		B501F557240DF7A000F08C56 /* MLDSimpleNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDSimpleNetworking.swift; sourceTree = "<group>"; };
+		B501F558240DF7A000F08C56 /* MLDNetLoggerPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDNetLoggerPlugin.swift; sourceTree = "<group>"; };
+		B501F559240DF7A000F08C56 /* MLDModelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDModelExtension.swift; sourceTree = "<group>"; };
+		B501F55B240DF7A000F08C56 /* MLDNamespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDNamespace.swift; sourceTree = "<group>"; };
+		B501F55C240DF7A000F08C56 /* MLDLibraryEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDLibraryEnum.swift; sourceTree = "<group>"; };
+		B501F55D240DF7A000F08C56 /* MLDLibraryIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDLibraryIcon.swift; sourceTree = "<group>"; };
+		B5182B5A240E0BB1000CB4F6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B5182B5C240E2B2C000CB4F6 /* MLDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDLog.m; sourceTree = "<group>"; };
+		B5182B5D240E2B2C000CB4F6 /* MLDQCloudCOSXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDQCloudCOSXML.m; sourceTree = "<group>"; };
+		B5182B5E240E2B2C000CB4F6 /* MLDGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLDGCDTimer.swift; sourceTree = "<group>"; };
+		B5182B5F240E2B2C000CB4F6 /* MLDQCloudCOSXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDQCloudCOSXML.h; sourceTree = "<group>"; };
+		B5182B63240E2B96000CB4F6 /* VideoUpload-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoUpload-Bridging-Header.h"; sourceTree = "<group>"; };
+		B59727C8240DF5E300D58218 /* VideoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59727CB240DF5E300D58218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B59727CD240DF5E300D58218 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B59727CF240DF5E300D58218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B59727D2240DF5E300D58218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B59727D4240DF5E600D58218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B59727D7240DF5E600D58218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B59727D9240DF5E600D58218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B968A562380113436826D194 /* Pods-VideoUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoUpload.release.xcconfig"; path = "Target Support Files/Pods-VideoUpload/Pods-VideoUpload.release.xcconfig"; sourceTree = "<group>"; };
+		F17CC82F45434A644CCC8386 /* Pods_VideoUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59727C5240DF5E300D58218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9E5AE39CD6A9124679553F /* Pods_VideoUpload.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1832542D96D3128713A078C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				511D66B3D92D95A5B590382E /* Pods-VideoUpload.debug.xcconfig */,
+				B968A562380113436826D194 /* Pods-VideoUpload.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B501F53E240DF7A000F08C56 /* MLDLibrary_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B5182B5E240E2B2C000CB4F6 /* MLDGCDTimer.swift */,
+				B5182B5C240E2B2C000CB4F6 /* MLDLog.m */,
+				B5182B5F240E2B2C000CB4F6 /* MLDQCloudCOSXML.h */,
+				B5182B5D240E2B2C000CB4F6 /* MLDQCloudCOSXML.m */,
+				B501F53F240DF7A000F08C56 /* MLDFoundation */,
+			);
+			path = MLDLibrary_Swift;
+			sourceTree = "<group>";
+		};
+		B501F53F240DF7A000F08C56 /* MLDFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				B501F540240DF7A000F08C56 /* Net */,
+				B501F55A240DF7A000F08C56 /* Base */,
+			);
+			path = MLDFoundation;
+			sourceTree = "<group>";
+		};
+		B501F540240DF7A000F08C56 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				B501F541240DF7A000F08C56 /* OC */,
+				B501F555240DF7A000F08C56 /* MLDBaseRequest.swift */,
+				B501F556240DF7A000F08C56 /* MLDNetSpinnerPlugin.swift */,
+				B501F557240DF7A000F08C56 /* MLDSimpleNetworking.swift */,
+				B501F558240DF7A000F08C56 /* MLDNetLoggerPlugin.swift */,
+				B501F559240DF7A000F08C56 /* MLDModelExtension.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		B501F541240DF7A000F08C56 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				B501F544240DF7A000F08C56 /* AFNetworking3.2.1 */,
+				B501F553240DF7A000F08C56 /* HTTPHelper.h */,
+				B501F542240DF7A000F08C56 /* HTTPHelper.m */,
+				B501F554240DF7A000F08C56 /* MLDHTTPRequest.h */,
+				B501F543240DF7A000F08C56 /* MLDHTTPRequest.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		B501F544240DF7A000F08C56 /* AFNetworking3.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				B501F545240DF7A000F08C56 /* AFSecurityPolicy.h */,
+				B501F546240DF7A000F08C56 /* AFNetworkReachabilityManager.h */,
+				B501F547240DF7A000F08C56 /* AFURLSessionManager.h */,
+				B501F548240DF7A000F08C56 /* AFURLRequestSerialization.h */,
+				B501F549240DF7A000F08C56 /* AFURLResponseSerialization.m */,
+				B501F54A240DF7A000F08C56 /* AFHTTPSessionManager.m */,
+				B501F54B240DF7A000F08C56 /* AFURLResponseSerialization.h */,
+				B501F54C240DF7A000F08C56 /* AFURLSessionManager.m */,
+				B501F54D240DF7A000F08C56 /* AFURLRequestSerialization.m */,
+				B501F54E240DF7A000F08C56 /* AFNetworking.h */,
+				B501F54F240DF7A000F08C56 /* AFNetworkReachabilityManager.m */,
+				B501F550240DF7A000F08C56 /* AFSecurityPolicy.m */,
+				B501F551240DF7A000F08C56 /* AFCompatibilityMacros.h */,
+				B501F552240DF7A000F08C56 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking3.2.1;
+			sourceTree = "<group>";
+		};
+		B501F55A240DF7A000F08C56 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B501F55B240DF7A000F08C56 /* MLDNamespace.swift */,
+				B501F55C240DF7A000F08C56 /* MLDLibraryEnum.swift */,
+				B501F55D240DF7A000F08C56 /* MLDLibraryIcon.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B59727BF240DF5E300D58218 = {
+			isa = PBXGroup;
+			children = (
+				B59727CA240DF5E300D58218 /* VideoUpload */,
+				B59727C9240DF5E300D58218 /* Products */,
+				1832542D96D3128713A078C3 /* Pods */,
+				E60A84B96566C852463C0123 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B59727C9240DF5E300D58218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59727C8240DF5E300D58218 /* VideoUpload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59727CA240DF5E300D58218 /* VideoUpload */ = {
+			isa = PBXGroup;
+			children = (
+				B501F53E240DF7A000F08C56 /* MLDLibrary_Swift */,
+				B59727CB240DF5E300D58218 /* AppDelegate.swift */,
+				B59727CD240DF5E300D58218 /* SceneDelegate.swift */,
+				B59727CF240DF5E300D58218 /* ViewController.swift */,
+				B5182B5A240E0BB1000CB4F6 /* CameraViewController.swift */,
+				B5182B63240E2B96000CB4F6 /* VideoUpload-Bridging-Header.h */,
+				B59727D1240DF5E300D58218 /* Main.storyboard */,
+				B59727D4240DF5E600D58218 /* Assets.xcassets */,
+				B59727D6240DF5E600D58218 /* LaunchScreen.storyboard */,
+				B59727D9240DF5E600D58218 /* Info.plist */,
+			);
+			path = VideoUpload;
+			sourceTree = "<group>";
+		};
+		E60A84B96566C852463C0123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F17CC82F45434A644CCC8386 /* Pods_VideoUpload.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59727C7240DF5E300D58218 /* VideoUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59727DC240DF5E600D58218 /* Build configuration list for PBXNativeTarget "VideoUpload" */;
+			buildPhases = (
+				0FB120C362DC3ACEB063512D /* [CP] Check Pods Manifest.lock */,
+				B59727C4240DF5E300D58218 /* Sources */,
+				B59727C5240DF5E300D58218 /* Frameworks */,
+				B59727C6240DF5E300D58218 /* Resources */,
+				638FF0A891176372279EE4FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoUpload;
+			productName = VideoUpload;
+			productReference = B59727C8240DF5E300D58218 /* VideoUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59727C0240DF5E300D58218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MoliySDev;
+				TargetAttributes = {
+					B59727C7240DF5E300D58218 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B59727C3240DF5E300D58218 /* Build configuration list for PBXProject "VideoUpload" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B59727BF240DF5E300D58218;
+			productRefGroup = B59727C9240DF5E300D58218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59727C7240DF5E300D58218 /* VideoUpload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B59727C6240DF5E300D58218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59727D8240DF5E600D58218 /* LaunchScreen.storyboard in Resources */,
+				B59727D5240DF5E600D58218 /* Assets.xcassets in Resources */,
+				B59727D3240DF5E300D58218 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FB120C362DC3ACEB063512D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoUpload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638FF0A891176372279EE4FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoUpload/Pods-VideoUpload-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoUpload/Pods-VideoUpload-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoUpload/Pods-VideoUpload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B59727C4240DF5E300D58218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B501F584240DF7A000F08C56 /* MLDModelExtension.swift in Sources */,
+				B501F582240DF7A000F08C56 /* MLDSimpleNetworking.swift in Sources */,
+				B5182B62240E2B2C000CB4F6 /* MLDGCDTimer.swift in Sources */,
+				B501F585240DF7A000F08C56 /* MLDNamespace.swift in Sources */,
+				B501F579240DF7A000F08C56 /* MLDHTTPRequest.m in Sources */,
+				B59727D0240DF5E300D58218 /* ViewController.swift in Sources */,
+				B501F583240DF7A000F08C56 /* MLDNetLoggerPlugin.swift in Sources */,
+				B501F57A240DF7A000F08C56 /* AFURLResponseSerialization.m in Sources */,
+				B501F57C240DF7A000F08C56 /* AFURLSessionManager.m in Sources */,
+				B59727CC240DF5E300D58218 /* AppDelegate.swift in Sources */,
+				B501F57E240DF7A000F08C56 /* AFNetworkReachabilityManager.m in Sources */,
+				B501F581240DF7A000F08C56 /* MLDNetSpinnerPlugin.swift in Sources */,
+				B59727CE240DF5E300D58218 /* SceneDelegate.swift in Sources */,
+				B5182B60240E2B2C000CB4F6 /* MLDLog.m in Sources */,
+				B501F580240DF7A000F08C56 /* MLDBaseRequest.swift in Sources */,
+				B501F586240DF7A000F08C56 /* MLDLibraryEnum.swift in Sources */,
+				B501F57B240DF7A000F08C56 /* AFHTTPSessionManager.m in Sources */,
+				B501F57F240DF7A000F08C56 /* AFSecurityPolicy.m in Sources */,
+				B5182B61240E2B2C000CB4F6 /* MLDQCloudCOSXML.m in Sources */,
+				B501F57D240DF7A000F08C56 /* AFURLRequestSerialization.m in Sources */,
+				B5182B5B240E0BB1000CB4F6 /* CameraViewController.swift in Sources */,
+				B501F578240DF7A000F08C56 /* HTTPHelper.m in Sources */,
+				B501F587240DF7A000F08C56 /* MLDLibraryIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B59727D1240DF5E300D58218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59727D2240DF5E300D58218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B59727D6240DF5E600D58218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59727D7240DF5E600D58218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B59727DA240DF5E600D58218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B59727DB240DF5E600D58218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B59727DD240DF5E600D58218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511D66B3D92D95A5B590382E /* Pods-VideoUpload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZHG5259CF;
+				INFOPLIST_FILE = VideoUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moliy.youngwift.VideoUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoUpload/VideoUpload-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B59727DE240DF5E600D58218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B968A562380113436826D194 /* Pods-VideoUpload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZHG5259CF;
+				INFOPLIST_FILE = VideoUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moliy.youngwift.VideoUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoUpload/VideoUpload-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B59727C3240DF5E300D58218 /* Build configuration list for PBXProject "VideoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59727DA240DF5E600D58218 /* Debug */,
+				B59727DB240DF5E600D58218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59727DC240DF5E600D58218 /* Build configuration list for PBXNativeTarget "VideoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59727DD240DF5E600D58218 /* Debug */,
+				B59727DE240DF5E600D58218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59727C0240DF5E300D58218 /* Project object */;
+}

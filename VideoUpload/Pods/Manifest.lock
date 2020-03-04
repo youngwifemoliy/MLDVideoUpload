@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - QCloudCore (5.7.1):
+    - QCloudCore/Default (= 5.7.1)
+  - QCloudCore/Default (5.7.1)
+  - QCloudCOSXML (5.7.1):
+    - QCloudCOSXML/Default (= 5.7.1)
+  - QCloudCOSXML/Default (5.7.1):
+    - QCloudCore (= 5.7.1)
+  - Result (4.1.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - Moya (~> 13.0.1)
+  - QCloudCOSXML
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - QCloudCore
+    - QCloudCOSXML
+    - Result
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  QCloudCore: bcea9653ea15dc6ade056fb506a0747aa151db22
+  QCloudCOSXML: 788031930816474d8eff6cb73906a5a2a2e392ce
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: f6e276db536511314891176819fbd92c20f4c90e
+
+COCOAPODS: 1.8.4
